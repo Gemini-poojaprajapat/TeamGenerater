@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.card{
+    box-shadow: 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    padding: 10px;
+}
+.list_style{
+    width: 280px;
+    height: 100px;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+ul li{
+    list-style: none;
+    font-family: cursive;
+}
+.addmember {
+    margin-bottom: 10px;
+}
+.addmember input{
+    width: 90%;   
+    margin-bottom: 8px; 
+}
+.GenerateMember{
+    margin-bottom: 10px;
+}
+.GenerateMember input{
+    width: 70%;
+}
+.btn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+p{
+    color: red;
+}
+
+.team-container{
+   margin-bottom: 1rem;
+}
+.team-container ul{
+    border: 0.1rem solid rgba(128,128,128,0.418);
+    margin: 0px;
+    padding: 0.5rem;
+}
